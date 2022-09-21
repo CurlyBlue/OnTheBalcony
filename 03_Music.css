@@ -92,16 +92,23 @@ a {
 .buttons :active {
     color: darkblue;
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 2278px) {
+    body {
+        zoom: 50%;
+    }
+}
+
+@media screen and (max-width: 426px) {
     body {
         zoom: 50%;
         height: auto;
     }
     .shapka {
-        width: 640px;
+        width: 850px;
     }
     .FZ {
-        width: 640px;
+        width: 850px;
     }
     .AD {
         transform: none;
@@ -120,8 +127,19 @@ a {
     }
 }
 
-@media screen and (max-width: 2278px) {
+@media screen and (max-width: 320px) {
     body {
         zoom: 50%;
+        max-height: 100%;
+    }
+    .shapka {
+        width: 640px;
+    }
+    .buttons {
+        border: 2px solid white;
+        padding: 0 100px;
+        margin: 1px;
+        display: flex;
+        flex-direction: column; 
     }
 }

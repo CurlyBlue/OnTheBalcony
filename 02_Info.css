@@ -100,12 +100,12 @@ header {
      }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
     body {
         zoom: 50%;
     }
     .shapka {
-        width: 640px;
+        width: 850px;
     }
 
     .Units p {
@@ -113,13 +113,33 @@ header {
     }
     .buttons {
         border: 2px solid white;
-        padding: 0;
+        padding: 0 230px;
         margin: 1px;
         display: flex;
         flex-direction: column;
-        width: 470px;
+        
+    }
+    .we {
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        zoom: 50%;
+        max-height: 100%;
+    }
+    .shapka {
+        width: 640px;
     }
     .we {
         width: 640px;
+    }
+    .buttons {
+        border: 2px solid white;
+        padding: 0 120px;
+        margin: 1px;
+        display: flex;
+        flex-direction: column; 
     }
 }

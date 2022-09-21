@@ -81,6 +81,29 @@ a {
     }
 }
 
+@media screen and (max-width: 426px) {
+    body {
+        zoom: 50%;
+        max-height: 100%;
+    }
+    .shapka {
+        width: 850px;
+    }
+    .buttons {
+        background: none;    
+        color: white;
+        padding: 0;
+        margin: 1px;
+        font-size: 45px;
+        border: 1px solid white;
+        border-style: solid solid none solid;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 320px) {
     body {
         zoom: 50%;
@@ -91,10 +114,9 @@ a {
     }
     .buttons {
         border: 2px solid white;
-        padding: 0;
+        padding: 0 100px;
         margin: 1px;
         display: flex;
-        flex-direction: column;
-        width: 470px;
+        flex-direction: column; 
     }
 }

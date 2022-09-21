@@ -116,19 +116,34 @@ header {
     }
 }
 
+@media screen and (max-width: 426px) {
+    body {
+        zoom: 50%;
+    }
+    .shapka {
+        width: 850px;
+    }
+    .buttons {
+        border: 2px solid white;
+        padding: 0 190px;
+        margin: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 320px) {
     body {
         zoom: 50%;
+        max-height: 100%;
     }
     .shapka {
         width: 640px;
     }
     .buttons {
         border: 2px solid white;
-        padding: 0;
+        padding: 0 100px;
         margin: 1px;
         display: flex;
-        flex-direction: column;
-        width: 470px;
+        flex-direction: column; 
     }
 }
