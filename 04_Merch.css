@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+@media screen and (max-width: 2278px) {
+    body {zoom: 67%;}
+}
+body {
+    background: rgb(5, 5, 5);
+    font-family: Oswald;
+    max-width: 2278px;
+    background: linear-gradient(black, darkblue );
+    margin: auto;
+}
+s {
+    color: red;
+}
+
+#gnrlbtn {
+    text-align: center;
+}
+hr {
+    width: 597mm;
+    size: 1px;
+    margin: auto;
+}
+h1 {
+    color:white; 
+    text-align: center; 
+    font-size: 300%;
+    margin: 15px;
+}
+h5 {
+    font-size: 150%; 
+    color: white; 
+    text-align: center;
+    position: relative;
+    margin: 15px;   
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.Icons {
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+}
+a {
+    color:white; 
+    text-align: center; 
+    font-size: 200%;
+}
+#con1 {
+    background: none;    
+    color: white;
+    margin: 5px 80px 0px 80px;
+    font-size: 45px;
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+    background: none;
+}
+.buttons {
+    background: none;    
+    color: white;
+    margin: 5px 175px 0px 175px;
+    font-size: 45px;
+    border: 1px solid white;
+    border-style: solid solid none solid;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-decoration: none;
+}
+.buttons :hover {
+    background-color: rgb(116, 121, 124);
+}
+.buttons :active {
+    color: darkblue;
+}
