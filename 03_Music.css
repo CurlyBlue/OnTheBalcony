@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
-@media screen and (max-width: 2278px) {
-    body {zoom: 67%;}
-}
+
+
 body {
     background: rgb(5, 5, 5);
     font-family: Oswald;
@@ -16,7 +15,7 @@ s {
     text-align: center;
 }
 hr {
-    width: 597mm;
+    width: auto;
     size: 1px;
     margin: auto;
 }
@@ -63,7 +62,8 @@ a {
     font-size: 150%;
     max-width: 2200px;
     font-weight: 200;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 #con1 {
     background: none;    
@@ -90,4 +90,37 @@ a {
 }
 .buttons :active {
     color: darkblue;
+}
+@media screen and (max-width: 320px) {
+    body {
+        zoom: 50%;
+        height: auto;
+    }
+    .shapka {
+        width: 640px;
+    }
+    .FZ {
+        width: 640px;
+    }
+    .AD {
+        transform: none;
+        display: block;
+    }
+    .p {
+        transform: none;
+        display: block;
+    }
+    .buttons {
+        border: 2px solid white;
+        padding: 0;
+        margin: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 2278px) {
+    body {
+        zoom: 50%;
+    }
 }
