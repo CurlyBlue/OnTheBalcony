@@ -77,7 +77,8 @@ a {
 .buttons {
     background: none;    
     color: white;
-    margin: 5px 175px 0px 175px;
+    margin: 5px 135px 0px 179px;
+    padding: 5px 30px 0 30px;
     font-size: 45px;
     border: 1px solid white;
     border-style: solid solid none solid;
